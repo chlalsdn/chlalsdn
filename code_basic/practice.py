@@ -8,7 +8,7 @@ print (3 *(3 + 1))
 
 print ('풍선')
 print ("나비")
-print ("ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ")
+print ("ㅋㅋㅋㅋㅋㅋㅋㅋㅋ")
 print ("ㅋ"*9)
 
 print (5 > 10)
@@ -140,6 +140,10 @@ sentence3 = """
 print (sentence3)
 '''
 
-#슬라이싱
+jumin = "071106-2345678"
 
+print ("성별 : " + jumin[7])
+print ("연 : " + jumin[0:2])
+print ("월 : " + jumin[2:4])
+print ("일 : " + jumin[4:6])
 
